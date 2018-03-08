@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redux Plan JS Counter</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+    <link rel="stylesheet" href="./counter.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="counter"></h1>
+      <button class="btn btn-blue" id="add">Add</button>
+      <button class="btn btn-green" id="minus">Minus</button>
+      <button class="btn btn-red" id="reset">Reset</button>
+    </div>
+    <hr>
+    <div class="container">
+      <h1>To Do List</h1>
+      <div>
+        <input type="text" placeholder="Enter a task" id="todos">
+      </div>
+      <button class="btn btn-green" id="new">New</button>
+      <button class="btn btn-blue" id="delete">Delete</button>
+      <button class="btn btn-red" id="delete_all">Delete All</button>
+      <ul id="todoList"></ul>
+    </div>
+    <script src='./counter.js'></script>
+  </body>
+</html>
